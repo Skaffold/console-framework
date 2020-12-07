@@ -1,0 +1,22 @@
+{
+    "name": "skaffold/console-framework",
+    "require": {
+        "jolicode/jolinotif": "^2.2",
+        "league/container": "^3.3",
+        "atomastic/filesystem": "^1.1",
+        "atomastic/registry": "^2.0",
+        "symfony/console": "^5.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aidan Casey",
+            "email": "aidan.casey@anteris.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Skaffold\\Console\\" : "./src"
+        }
+    }
+}
